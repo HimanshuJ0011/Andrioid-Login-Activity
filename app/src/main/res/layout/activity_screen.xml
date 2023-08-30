@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_centerInParent="true"
+    android:layout_centerHorizontal="true"
+    android:layout_centerVertical="true"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginStart="50dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="50dp"
+        android:layout_marginBottom="50dp"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:text="Welcome 😊"
+        android:textSize="36sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:padding="10dp"
+        android:layout_marginTop="180dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/image" />
+    <ImageView
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="180dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/image2" />
+
+    <EditText
+        android:id="@+id/txt_email"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="300dp"
+        android:hint="Enter Email"
+        android:textSize="20sp"
+        android:fontFamily="@font/montserrat"
+        android:layout_centerHorizontal="true"
+        android:inputType="textEmailAddress"/>
+    <EditText
+        android:id="@+id/txt_pswd"
+        android:layout_width="350dp"
+        android:layout_height="60dp"
+        android:layout_marginTop="380dp"
+        android:hint="Enter Password"
+        android:textSize="20sp"
+        android:fontFamily="@font/montserrat"
+        android:layout_centerHorizontal="true"
+        android:inputType="textPassword"/>
+
+    <Button
+        android:id="@+id/login_btn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="false"
+        android:layout_centerHorizontal="true"
+        android:fontFamily="@font/montserrat"
+        android:gravity="center"
+        android:text="Log In"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginTop="550dp" />
+
+</RelativeLayout>
